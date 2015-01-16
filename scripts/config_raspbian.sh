@@ -13,7 +13,7 @@ sudo apt-get -y  purge openssh-server.* openssh-blacklist.*
 # Auto remove dependencies
 apt-get -y autoremove
 # Set timezone
-echo "Europe/Amsterdam" | tee /etc/timezone   
+echo "Europe/Berlin" | tee /etc/timezone   
 dpkg-reconfigure -f noninteractive tzdata
 # Disable tty2-tty6
 sed -i '/[2-6]:23:respawn:\/sbin\/getty 38400 \
