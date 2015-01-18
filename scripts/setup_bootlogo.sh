@@ -1,8 +1,8 @@
 #!/bin/sh
 cd /var/tmp
 apt-get -y install fbi
-wget https://github.com/reddipped/PIChannel/raw/master/img/pichannel.png
-wget https://github.com/reddipped/PIChannel/raw/master/scripts/aasplashscreen
+wget https://raw.githubusercontent.com/cewi/PIUSB/master/img/pi_usb.png
+wget https://raw.githubusercontent.com/cewi/PIUSB/master/scripts/aasplashscreen
 cp aasplashscreen /etc/init.d/aasplashscreen
 chmod u+x /etc/init.d/aasplashscreen
 #sudo update-rc.d aasplashscreen defaults
