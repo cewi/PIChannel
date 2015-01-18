@@ -1,9 +1,10 @@
-PIChannel
+PIUSB
 =========
 
+Some scripts to turn a Raspberry Pi in an USB Mediaplayer.
 
-# For detailed installation instructions 
+Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2
 
-[Grandpa's familiy Channel] [lnk]
+The scripts are a slight modification based on the work of Peter van Nes [reddipped](https://github.com/reddipped/PIChannel)
 
-[lnk]: http://www.reddipped.com/2014/06/grandpas-family-channel/ "reddipped.com"
+Install instructions see [wiki](https://github.com/cewi/PIUSB/wiki) (only german so far)
