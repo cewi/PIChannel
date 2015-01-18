@@ -4,7 +4,7 @@
 rm -rf ~/Desktop/*
 cp ~/.config/lxpanel/LXDE-pi/panels/panel \
 /var/tmp/panel.bkp
-cat <<EOF2 | tee ~/.config/lxpanel/LXDE/panels/panel
+cat <<EOF2 | tee ~/.config/lxpanel/LXDE-pi/panels/panel
 Global {
     edge=bottom
     allign=left
