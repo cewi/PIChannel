@@ -7,7 +7,7 @@ cp aasplashscreen /etc/init.d/aasplashscreen
 chmod u+x /etc/init.d/aasplashscreen
 #sudo update-rc.d aasplashscreen defaults
 insserv /etc/init.d/aasplashscreen
-cp /var/tmp/pichannel.png /etc
+cp /var/tmp/pi_usb.png /etc
 # quiet boot mode
 echo `cat /boot/cmdline.txt` quiet logo.nologo loglevel=3 | tee /var/tmp/cmdline.txt
 cp /var/tmp/cmdline.txt /boot
