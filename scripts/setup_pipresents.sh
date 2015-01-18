@@ -34,6 +34,6 @@ wget https://raw.githubusercontent.com/cewi/PIUSB/master/pp_live/resources.cfg
 mkdir ~/pp_home/media
 # prepare auto start
 cd /var/tmp
-wget https://raw.githubusercontent.com/reddipped/PIChannel/master/scripts/pipresents.desktop
+wget ttps://raw.githubusercontent.com/cewi/PIUSB/master/scripts/pipresents.desktop
 mkdir -p /home/pi/.config/autostart
 cp /var/tmp/pipresents.desktop /home/pi/.config/autostart
