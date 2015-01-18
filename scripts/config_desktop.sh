@@ -2,7 +2,7 @@
 # install lxde-core components and lightdm
 ## Cleanup desktop
 rm -rf ~/Desktop/*
-cp ~/.config/lxpanel/LXDE/panels/panel \
+cp ~/.config/lxpanel/LXDE-pi/panels/panel \
 /var/tmp/panel.bkp
 cat <<EOF2 | tee ~/.config/lxpanel/LXDE/panels/panel
 Global {
