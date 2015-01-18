@@ -28,12 +28,13 @@ Global {
     iconsize=24
 }
 EOF2
+## pcmanfm seems not to be installed any more
 sed --in-place "s/wallpaper_mode.*/wallpaper_mode=0/g" \
-/home/pi/.config/pcmanfm/LXDE/pcmanfm.conf
+/home/pi/.config/pcmanfm/LXDE-pi/pcmanfm.conf
 sed --in-place "s/wallpaper=.*/wallpaper=/g" \
-/home/pi/.config/pcmanfm/LXDE/pcmanfm.conf
+/home/pi/.config/pcmanfm/LXDE-pi/pcmanfm.conf
 sed --in-place "s/desktop_bg=.*/desktop_bg=#000000/g" \
-/home/pi/.config/pcmanfm/LXDE/pcmanfm.conf
+/home/pi/.config/pcmanfm/LXDE-pi/pcmanfm.conf
 ####apt-get -y remove pcmanfm
 ## Disable screenblanking and screensaver
 sudo sed --in-place '/#!\/bin\/sh/a\# Disable screenblanking\n\xset s off\n\xset -dpms\n\xset s noblank' /etc/X11/xinit/xinitrc
