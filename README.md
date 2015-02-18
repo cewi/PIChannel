@@ -68,4 +68,3 @@ Reboot the raspi. If you plug any USB-Stick, it will immediately start playing a
 
 ##Things to do
 Overwrite the Bootlogo with your own png-file.
-
