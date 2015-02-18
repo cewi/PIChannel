@@ -1,10 +1,10 @@
 PIUSB
 =========
 
-This describes how to configure a raspberry pi to play automatically all media files from a plugged usb-stick in an endless presentation.   
-Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2. The Idea is to start a so called "Liveshow" which is configured to play anything from a plugged USB-Stick. The Stick is made available to the raspi as Martin Schulte described [here](https://pipresents.wordpress.com/hints-and-tips/using-usb-sticks-without-naming-them/).
+Configure a raspberry pi to play automatically all media files from a plugged usb-stick in an endless presentation.   
+Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2. Starts a so called "Liveshow" which is configured to play anything from a plugged USB-Stick. The stick is mounted to the raspi as Martin Schulte described [here](https://pipresents.wordpress.com/hints-and-tips/using-usb-sticks-without-naming-them/).
 
-The installation- and configuration-scripts are a slight modification based on the work of Peter van Nes [reddipped](https://github.com/reddipped/PIChannel) If you read carefully his instructions, you will have no problem understanding what's going on here.
+The installation- and configuration-scripts are a sbased on the work of Peter van Nes [reddipped](https://github.com/reddipped/PIChannel) and slightly modified. If you read carefully his instructions, you will have no problem understanding what's going on.
 
 For german instructions see [wiki](https://github.com/cewi/PIUSB/wiki).
 
@@ -17,8 +17,8 @@ For german instructions see [wiki](https://github.com/cewi/PIUSB/wiki).
 - USB-Stick for Media (You can for example export a Powerpoint-Presentation to single-sheet Jpeg-Files. For best results set size (graphics and video) to 1920 x 1080 (HD).
 
 ##Installation
-Copy Raspbian onto SD-Card. Easiest Way is via NOOBS as described [here](http://www.raspberrypi.org/help/noobs-setup/). Choose only Raspbian for installation not any other (secondary) OS. Otherwise you get a boot loader which will ask you which OS to boot any time you start the raspi.  
-Start the raspi, and log in (i.e. per ssh). Now you have to download and start several scripts as described below. Just copy and paste the code to the console. The scripts base on the work of Peter van Nes / reddipped. Thank You!
+Copy Raspbian onto the SD-Card. Easiest way is via NOOBS as described [here](http://www.raspberrypi.org/help/noobs-setup/). Choose only Raspbian for installation not any other (secondary) OS. Otherwise you get a boot loader which will ask you which OS to boot any time you start the raspi.  
+Start the raspi, and log in (i.e. per ssh). Now you have to download and start several scripts as described below. Just copy and paste the code to the console. The scripts base on the work of Peter van Nes / reddipped. Thanks!
 
 For a detailed description what these scripts are doing, see [here](http://www.reddipped.com/2014/06/grandpas-family-channel/)
 
@@ -64,7 +64,7 @@ For a detailed description what these scripts are doing, see [here](http://www.r
         chmod u+x setup_pipresents.sh  
         ./setup_pipresents.sh  
 
-Reboot the raspi. If you plug any USB-Stick, it will immediately start playing all media it can handle.
+Reboot the raspi. If you plug any USB-Stick, it will immediately start playing all media it can.
 
 ##Things to do
-Overwrite the Bootlogo with your own png-file.
+Overwrite the bootlogo with your own png-file.
