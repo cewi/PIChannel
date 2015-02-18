@@ -7,4 +7,4 @@ Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2
 
 The scripts are a slight modification based on the work of Peter van Nes [reddipped](https://github.com/reddipped/PIChannel)
 
-Install instructions see [wiki](https://github.com/cewi/PIUSB/wiki) (only german so far)
+German Install instructions see [wiki](https://github.com/cewi/PIUSB/wiki) 
