@@ -2,7 +2,7 @@ PIUSB
 =========
 
 Configure a raspberry pi to play automatically all media files from a plugged usb-stick in an endless presentation.   
-Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2. Starts a so called "Liveshow" which is configured to play anything from a plugged USB-Stick. The stick is mounted to the raspi as Martin Schulte described [here](https://pipresents.wordpress.com/hints-and-tips/using-usb-sticks-without-naming-them/).
+Uses [PiPresents](https://pipresents.wordpress.com/) from KenT2. Starts a so called "Liveshow" which is configured to play anything from a plugged USB-Stick. The stick is mounted to the raspi the way Martin Schulte described [here](https://pipresents.wordpress.com/hints-and-tips/using-usb-sticks-without-naming-them/).
 
 The installation- and configuration-scripts are a sbased on the work of Peter van Nes [reddipped](https://github.com/reddipped/PIChannel) and slightly modified. If you read carefully his instructions, you will have no problem understanding what's going on.
 
