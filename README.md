@@ -65,4 +65,9 @@ For a detailed description what these scripts are doing, see [here](http://www.r
 Reboot the raspi. If you plug any USB-Stick, it will immediately start playing all media it can.
 
 ###TODO
-You can give the raspi WLAN-access with an USB-WLAN-device and with the script provided [here](https://github.com/reddipped/PIChannel/blob/master/scripts/setup_wifi.sh)
+You can give the raspi WLAN-access with an USB-WLAN-device:
+
+        cd /var/tmp  
+        wget https://raw.githubusercontent.com/cewi/PIUSB/master/scripts/setup_wifi.sh  
+        chmod u+x setup_wifi.sh  
+        ./setup_wifi.sh  
