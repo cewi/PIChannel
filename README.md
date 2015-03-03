@@ -7,8 +7,8 @@ For german instructions see [wiki](https://github.com/cewi/PIUSB/wiki).
 
 ##Requirements
 - RaspberryPi (I used Model B+, but A+ should work either)
- - SD-Card (4GB oder more - see NOOBS requirements)
- - USB Power Supply
+- SD-Card (4GB oder more - see NOOBS requirements)
+- USB Power Supply
 - HDMI-Cable
 - (Internet, Mouse and Keyboard only for installation)
 - USB-Stick with Media Files (e.g. export a Powerpoint-Presentation to single-sheet Jpeg-Files. For best results set size (graphics and video) to 1920 x 1080 (HD).
